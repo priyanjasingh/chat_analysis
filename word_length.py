@@ -14,7 +14,7 @@ for line in f:
 				count = count+1
 			elif(t==' '):
 				space=space+1
-		s.write(str(a) + " -> " + str(count/space))
+		s.write(str(a) + " -> " + str(count/space)
 		s.write("\n")
 
 s.close()
