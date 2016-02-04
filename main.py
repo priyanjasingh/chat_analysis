@@ -10,9 +10,11 @@ from punctuation_usage import punctuation
 from stopword_freq import stopword_usage
 from smileys import smiley_count
 from acro_line import acro_line
+
 from elongation_of_vowel import elongation_vowel
 from suspension_point import suspension_point
 from imitation_rate import imitation_rate
+
 
 import sys
 import os
@@ -104,6 +106,7 @@ acro_line("./package/1_chat.txt",1)
 acro_line("./package/2_chat.txt",2)
 print "acro_line extracted"
 
+
 #tenth feature """elongation of vowel count"""
 elongation_vowel("./package/1_chat.txt",1)
 elongation_vowel("./package/2_chat.txt",2)
@@ -118,6 +121,7 @@ print "suspension count"
 imitation_rate("./package/number_word_1.txt",1)
 imitation_rate("./package/number_word_2.txt",2)
 print "imitiation_rate"
+
 
 #tenth feature """how much he has used his common words in these line"""
 
