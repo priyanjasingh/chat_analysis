@@ -1,7 +1,0 @@
-WO 2
-TTYL 3
-Fb 2
-FB 2
-SO 3
-ARE 4
-SE 3

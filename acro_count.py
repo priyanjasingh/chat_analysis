@@ -1,13 +1,18 @@
 import os
 from collections import defaultdict
 
+
 f = open('./package/acro.txt', 'r')
+
 f1 = open('1_chat.txt')
 f2 = open('2_chat.txt')
 
 a=0
+
 s1 = open('./package/acro_count_1.txt','wb')
 s2 = open('./package/acro_count_2.txt','wb')
+
+
 
 l=[]
  
@@ -33,11 +38,13 @@ for line in f2:
 				d2[w]+=1
 
 for key, value in d1.items():
+
 	s1.write(str(key) + " " + str(value))
 	s1.write("\n")
 
 for key, value in d2.items():
 	s2.write(str(key) + " " + str(value))
+
 	s2.write("\n")
 
 
